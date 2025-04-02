@@ -13,8 +13,8 @@ This repository includes:
 
 ## Repository Structure
 
-├── AASIST_Implementation.ipynb      
- ├── Assessment_Report.md   
+├── AASIST Audio Deepfake Detection Implementation.ipynb     
+ ├── Assessment Report.md   
  ├── README.md
 ## Dataset: ASVspoof 2019 Logical Access (LA)
 
@@ -39,19 +39,19 @@ This implementation uses the **ASVspoof 2019 Logical Access (LA)** dataset.
 
 ## Running the Implementation (Notebook)
 
-The core implementation is contained within the Jupyter notebook: `AASIST_Implementation.ipynb`.
+The core implementation is contained within the Jupyter notebook: `AASIST Audio Deepfake Detection Implementation.ipynb`.
 
 1.  Ensure your environment is set up and activated (see Setup).
 2.  Launch Jupyter Notebook or Jupyter Lab:
     ```bash
-    jupyter notebook AASIST_Implementation.ipynb
+    jupyter notebook AASIST Audio Deepfake Detection Implementation.ipynb
     # or
     # jupyter lab
     ```
-3.  Open the `AASIST_Implementation.ipynb` notebook.
+3.  Open the `AASIST Audio Deepfake Detection Implementation.ipynb` notebook.
 4.  Run the cells sequentially. The notebook handles:
     * Cloning the original `clovaai/aasist` code (if not already present, though this repo contains the necessary code).
-    * Installing dependencies (redundant if done via `requirements.txt` but included for completeness in the notebook).
+    * Installing dependencies.
     * Downloading and extracting the ASVspoof 2019 LA dataset using the provided script.
     * Running the training process for the AASIST-L model (configured for 10 epochs).
 
@@ -76,5 +76,4 @@ These results confirm the pipeline's correctness but **do not** represent the mo
 
 For a comprehensive discussion covering the research background, model selection rationale (Part 1), and detailed documentation & analysis (Part 3), please refer to the report file in this repository:
 
-* **[Assessment_Report.md](./Assessment_Report.md)**
-
+* **[Assessment Report.md](./Assessment Report.md)**
