@@ -76,4 +76,4 @@ These results confirm the pipeline's correctness but **do not** represent the mo
 
 For a comprehensive discussion covering the research background, model selection rationale (Part 1), and detailed documentation & analysis (Part 3), please refer to the report file in this repository:
 
-* **[Assessment Report.md](./Assessment Report.md)**
+* **[Assessment Report.md](https://github.com/mangotraabhi/AASIST-Audio-Deepfake-Detection/blob/main/Assessment%20Report.md)**
