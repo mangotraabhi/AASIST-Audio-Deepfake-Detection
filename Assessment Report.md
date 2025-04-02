@@ -61,7 +61,7 @@ The **ASVspoof 2019 LA** dataset was selected as the most appropriate choice for
 
 The step-by-step implementation, including environment setup, data download/preparation using the provided script, necessary code modifications (NumPy type fix, epoch adjustment), and the execution of the light re-training process, is detailed in the Jupyter notebook within the project repository.
 
-* **Code Location:** Please refer to the `AASIST_Implementation.ipynb` notebook in the repository: [github.com/mangotraabhi/AASIST-Audio-Deepfake-Detection](https://github.com/mangotraabhi/AASIST-Audio-Deepfake-Detection)
+* **Code Location:** Please refer to the `AASIST Audio Deepfake Detection Implementation.ipynb` notebook in the repository: [github.com/mangotraabhi/AASIST-Audio-Deepfake-Detection](https://github.com/mangotraabhi/AASIST-Audio-Deepfake-Detection)
 
 ---
 
@@ -71,7 +71,7 @@ The step-by-step implementation, including environment setup, data download/prep
 
 **Implementation Process Documentation:**
 
-* **Setup:** The environment was prepared by cloning the repository (`github.com/mangotraabhi/AASIST-Audio-Deepfake-Detection`, which incorporates the necessary parts of `clovaai/aasist`) and installing dependencies listed in `requirements.txt` using `pip` within a Python virtual environment. This process was straightforward.
+* **Setup:** The environment was prepared by cloning the repository (`github.com/clovaai/aasist` and installing dependencies listed in `requirements.txt` using `pip` within a Python virtual environment. This process was straightforward.
 * **Data Handling:** The ASVspoof 2019 LA dataset was successfully downloaded and extracted using the `download_dataset.py` script included in the original AASIST repository. This placed the data into the expected `./LA` directory structure relative to the main scripts.
 * **Code Modifications:** Two key modifications were applied to the original `clovaai/aasist` code before execution:
     * In `evaluation.py`, instances of `.astype(np.float)` were changed to `.astype(np.float64)` to ensure compatibility with modern NumPy versions where `np.float` is deprecated.
